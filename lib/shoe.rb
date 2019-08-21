@@ -5,6 +5,8 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
+    if BRANDS.length > 5 |do|
+      BRANDS.pop
     @brand = brand
     BRANDS << brand
   end
