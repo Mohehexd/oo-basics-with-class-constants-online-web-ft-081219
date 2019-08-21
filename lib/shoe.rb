@@ -6,7 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.pop << brand
+    if BRANDS << brand |do|
+      BRANDS.pop
   end
 
   def cobble
