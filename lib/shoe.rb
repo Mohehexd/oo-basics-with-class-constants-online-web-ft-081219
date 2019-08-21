@@ -12,6 +12,8 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  
+  
 end
 
 # learn spec/02_shoe_spec.rb
